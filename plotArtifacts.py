@@ -1,6 +1,5 @@
 import numpy as np 
 import matplotlib.pyplot as plt
-import sympy as sp #from scipy import optimize from functools import partial
 from skimage.data import shepp_logan_phantom 
 from skimage.transform import radon, rescale, iradon
 
@@ -78,8 +77,8 @@ def main():
  
     
 
-    print(f.shape)
-    print(f)
+    #print(f.shape)
+    #print(f)
     theta = np.linspace(0., 360., 1440, endpoint=False)
 
 
